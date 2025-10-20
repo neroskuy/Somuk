@@ -1,6 +1,6 @@
 <h1 align="center">SOMUK</h1>
 <p align="center"><img src="Somuk.jpg" max-width="90%%" height="auto"></p>
-**Ambil gambar webcam dari target hanya dengan mengirimkan tautan berbahaya**
+<b><p align="left">Ambil gambar webcam dari target hanya dengan mengirimkan tautan berbahaya</b></p>
 **Bagaimana cara kerjanya?**
 
 Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok (port forwarding),  
