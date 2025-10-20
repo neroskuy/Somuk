@@ -1,7 +1,6 @@
 <h1 align="center">SOMUK</h1>
 <p align="center"><img src="Somuk.jpg" max-width="90%%" height="auto"></p>
-<p align="center">Ambil gambar webcam dari target hanya dengan mengirimkan tautan berbahaya</p>
-
+**Ambil gambar webcam dari target hanya dengan mengirimkan tautan berbahaya**
 **Bagaimana cara kerjanya?**
 
 Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok (port forwarding),  
@@ -29,3 +28,4 @@ $ git clone https://github.com/Readone99/Somuk
 $ cd CAM-DUMPER
 $ chmod +x camdumper.sh
 $ ./camdumper.sh
+$ hapyy hacking !!
